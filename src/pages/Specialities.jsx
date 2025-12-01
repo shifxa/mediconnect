@@ -1,6 +1,7 @@
 // import React from "react";
 
 import { useParams } from "react-router-dom";
+import Cta from "../component/Cta";
 
 
 export const service = [
@@ -254,6 +255,9 @@ function Specialities() {
           </div>
         </div>
       </section>
+
+    <Cta />
+
     </main>
   );
 }
