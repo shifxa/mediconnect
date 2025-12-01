@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+
+.geist-bold {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.geist-semi-bold {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.geist-normal {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hide-scrollbar {
+  /* Chrome, Safari, Opera के लिए */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* IE, Edge, और Firefox के लिए */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
