@@ -239,11 +239,11 @@ function Specialities() {
               <p className="gesit-semi-bold text-xl p-5 px-10 pt-9">
                 {data.results.testimony}
               </p>
-              <span className="flex flex-row gap-2 py-8 px-10">
+              <span className="flex flex-row gap-2 py-8 px-10 ">
                 <img
                   src={data.results.patimg}
                   alt="patimg"
-                  className="w-14 h-14 rounded-full"
+                  className="w-14 h-14 rounded-full object-cover"
                 />
 
                 <span>
