@@ -106,7 +106,7 @@ function Contact() {
                 />
 
             <textarea
-            className="border border-gray-200 p-3 rounded-lg bg-white row-span-2"
+            className="border border-gray-200 p-3 rounded-lg bg-white col-span-2"
               type="text"
               placeholder="Message"
               {...register("message", { required: true })}
@@ -114,7 +114,7 @@ function Contact() {
 
             <button
                 type="submit"
-                className="bg-blue-600 py-3 px-6 rounded-4xl geist-semi-bold text-white flex flex-row gap-x-2 h-fit w-fit place-self-center  cursor-pointer hover:bg-blue-500 "
+                className="bg-blue-600 py-3 px-8 rounded-4xl geist-semi-bold text-white flex flex-row gap-x-2 h-fit w-fit place-self-center col-span-2 cursor-pointer hover:bg-blue-500 "
               >
                 <BriefcaseMedical />
                 Get Appointment
